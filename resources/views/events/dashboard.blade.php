@@ -4,13 +4,13 @@
 
 @section('content')
 
-<div class="col-md-10 offset-md-1 dashboard-title-container">
-    <h1>Meus Eventos</h1>
+<div class="col-md-12 dashboard-title-container">
+    <h3>Meus Eventos</h3>
 </div>
 <div class="col-md-10 offset-md-1 dashboard-events-container">
     @if(count($events) > 0)
-    <table class="table">
-        <thead>
+    <table class="table table-bordered table-hover">
+        <thead class="thead-dark">
             <tr>
                 <th scope="col">#</th>
                 <th scope="col">Nome</th>
@@ -40,13 +40,13 @@
     <p>Você ainda não possui eventos, <a href="/events/create">clique aqui</a> para criar um evento.</p>
     @endif
 </div>
-<div class="col-md-10 offset-md-1 dashboard-title-container">
-    <h1>Eventos que participo:</h1>
+<div class="col-md-12 dashboard-title-container">
+    <h3>Eventos que participo:</h3>
 </div>
 <div class="col-md-10 offset-md-1 dashboard-events-container">
     @if(count($eventsAsParticipant) > 0)
-    <table class="table">
-        <thead>
+    <table class="table table-bordered table-hover rounded-top">
+        <thead class="thead-dark">
             <tr>
                 <th scope="col">#</th>
                 <th scope="col">Nome</th>

@@ -30,7 +30,7 @@
                     >Confirmar Presença</a>
             </form>
             @else
-            <p class="already-joined-msg">Você já está participando deste evento!</p>
+            <p id="info-container" class="already-joined-msg">Você já está participando deste evento!</p>
             @endif
             @if($event->items)
             <h3>O Evento conta com: </h3>
