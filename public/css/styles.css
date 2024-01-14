@@ -225,6 +225,7 @@ footer p {
 
 .dashboard-title-container {
     margin: 30px 0;
+    text-align: center;
 }
 
 .dashboard-events-container th {
@@ -239,4 +240,15 @@ footer p {
 
 .img-preview {
     width: 100px;
+}
+
+/* Show Page */
+
+#info-container .already-joined-msg {
+    margin-top: 16px;
+    color: #004085;
+    background-color: #cce5ff;
+    border: 1px solid #B8DAFF;
+    padding: 10px;
+    width: 275px;
 }
